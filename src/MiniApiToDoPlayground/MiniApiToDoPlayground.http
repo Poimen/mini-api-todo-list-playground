@@ -1,6 +1,53 @@
-@MiniApiToDoPlayground_HostAddress = http://localhost:5043
+@MiniApiTodoPlayground_HostAddress = http://localhost:5043
 
-GET {{MiniApiToDoPlayground_HostAddress}}/weatherforecast/
+GET {{MiniApiTodoPlayground_HostAddress}}/api/todos/
+Accept: application/json
+
+###
+
+GET {{MiniApiTodoPlayground_HostAddress}}/api/todos/completed
+Accept: application/json
+
+###
+
+
+GET {{MiniApiTodoPlayground_HostAddress}}/api/todos/1
+Accept: application/json
+
+###
+
+POST {{MiniApiTodoPlayground_HostAddress}}/api/todos/
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "do something important"
+}
+
+###
+
+PUT {{MiniApiTodoPlayground_HostAddress}}/api/todos/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "do something really important"
+}
+
+###
+
+PUT {{MiniApiTodoPlayground_HostAddress}}/api/todos/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "do something important"
+}
+
+###
+
+
+PUT {{MiniApiTodoPlayground_HostAddress}}/api/todos/1/complete
 Accept: application/json
 
 ###
