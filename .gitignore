@@ -434,3 +434,4 @@ $RECYCLE.BIN/
 
 # Docker
 docker/mysql/
+*.db
