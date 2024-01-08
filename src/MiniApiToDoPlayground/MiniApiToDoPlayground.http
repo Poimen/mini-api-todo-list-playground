@@ -1,0 +1,6 @@
+@MiniApiToDoPlayground_HostAddress = http://localhost:5043
+
+GET {{MiniApiToDoPlayground_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
