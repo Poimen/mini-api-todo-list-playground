@@ -7,7 +7,7 @@ The API uses Request-Response handlers for handling API responses. The API uses 
 The API uses SQLite as the backing database with EF Core. There is an EF Core migration to generate the necessary table.
 
 
-Endpoints - [use](src/MiniApiToDoPlayground//MiniApiTodoPlayground.http) for testing:
+Endpoints - [use](src/MiniApiToDoPlayground/MiniApiToDoPlayground.http) for testing:
 
 All Todo Items
 > GET /api/todos/
